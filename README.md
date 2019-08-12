@@ -120,7 +120,7 @@ Comutadores de pacotes e enlaces que interconectam os sistemas finais da Interne
   ```
 - 1.5 Camadas de protocolo e seus modelos de serviço (Pág35)
   - 1.5.1 Arquitetura de camadas
-  ```
+```
   Uma arquitetura em camadas nos permite discutir uma parcela específica e bem definida de um sistema grande e complexo.
   Modelo de serviço são os serviços que uma camada oferece à camada acima dela.
   A pilha de protocolos da internet é formada por 5 camadas: física, enlace, rede, transmissão e aplicação.
@@ -128,7 +128,7 @@ Comutadores de pacotes e enlaces que interconectam os sistemas finais da Interne
   O modelo de referência OSI possui 7 camadas com a adição das camadas de apresentação e sessão.
   O modelo OSI foi definido pela ISO.
   Na camada de aplicação o pacote  denominado mensagem.
-  Camada de trasporte da Internet carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma         aplicação.(TCP, UDP).
+  Camada de transporte da Internet carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma aplicação.(TCP, UDP).
   Na camada de trasporte o pacote é denominado segmento.
   A camada de rede é responável pela movimentação de um hospedeiro para outro, de pacotes da camada de rede conhecidos como   datagramas.(IP)
   Camadas de enlace(Ethernet, wifi) 
