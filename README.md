@@ -130,7 +130,7 @@ Comutadores de pacotes e enlaces que interconectam os sistemas finais da Interne
   Na camada de aplicação o pacote  denominado mensagem.
   Camada de transporte da Internet carrega mensagens da camada de aplicação entre os lados do cliente e servidor de uma aplicação.(TCP, UDP).
   Na camada de trasporte o pacote é denominado segmento.
-  A camada de rede é responável pela movimentação de um hospedeiro para outro, de pacotes da camada de rede conhecidos como   datagramas.(IP)
+A camada de rede é responável pela movimentação de um hospedeiro para outro, de pacotes da camada de rede conhecidos como datagramas.(IP)
   Camadas de enlace(Ethernet, wifi) 
   Pacotes na camada de enlace são denominados quadros.
   Camada física movimentar os bits individuais que estão dentro do quadro de um nó para o seguinte.
