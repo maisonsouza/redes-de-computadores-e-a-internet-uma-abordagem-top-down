@@ -142,12 +142,33 @@ Comutadores de pacotes e enlaces que interconectam os sistemas finais da Interne
   Cada camada encapsula os dados da camada acima.(mensagem, segmento, datagrama, quadro)
   ```
 - 1.6 Redes sob ameaça
+```
+Redes de computadores sofrem ameaças constantes.Malwares, spywares, worms.
+Ataque DOS ou recusa de serviço(Ataque de vulnerabilidade, Inundação na largura de banda larga, inundaçaõ de conexão)
+Ataque DDOS(Ataque distribuído)
+Analisadores de pacotes.
+Ip spoofing
+man-in-the-middle
+```
 - 1.7 História das redes de computadores e da Internet
   - 1.7.1 Desenvolvimento da comutação de pacotes: 1961-1972
+  O surgimento dos primeiros computadores de pacotes.
+  ArpaNET
+  
   - 1.7.2 Redes proprietárias e trabalho em rede: 1972-1980
+  * Protocolo TCP
   - 1.7.3 Proliferação de redes: 1980-1990
+  * Ligações entre universidades americanas.
+  * TCP/IP
+  
   - 1.7.4 A explosão da Internet: a década de 1990
+  * Surgimento da Web
+  * Surgimento de vários serviços (Email, mensagens, mp3, torrent)
+  
   - 1.7.5 O novo milênio
+  * Redes sociais.
+  * Aplicaçes em Nuvem.
+  
 - 1.8 Resumo
 - Exercícios de fixação e perguntas
 - Problemas
