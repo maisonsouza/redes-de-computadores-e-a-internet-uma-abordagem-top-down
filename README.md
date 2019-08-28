@@ -175,45 +175,6 @@ man-in-the-middle
 - Wireshark Lab
 - Entrevista: Leonard Kleinrock
 
-Capítulo 2 Camada de aplicação 61
-2.1 Princípios de aplicações de rede 62
-2.1.1 Arquiteturas de aplicação de rede 62
-Arquitetura cliente servidor e arquitetura P2P.
-2.1.2 Comunicação entre processos 65
-2.1.3 Serviços de transporte disponíveis para aplicações 66
-2.1.4 Serviços de transporte providos pela Internet 68
-2.1.5 Protocolos de camada de aplicação 71
-2.1.6 Aplicações de rede abordadas neste livro 71
-2.2 A Web e o HTTP 72
-2.2.1 Descrição geral do HTTP 72
-2.2.2 Conexões persistentes e não persistentes 73
-2.2.3 Formato da mensagem HTTP 76
-2.2.4 Interação usuário-servidor: cookies 79
-2.2.5 Caches Web 81
-2.2.6 GET condicional 83
-2.3 Transferência de arquivo: FTP 85
-2.3.1 Comandos e respostas FTP 86
-2.4 Correio eletrônico na Internet 87
-2.4.1 SMTP 88
-2.4.2 Comparação com o HTTP 91
-2.4.3 Formatos de mensagem de correio 91
-2.4.4 Protocolos de acesso ao correio 92
-2.5 DNS: o serviço de diretório da Internet 95
-2.5.1 Serviços fornecidos pelo DNS 96
-2.5.2 Visão geral do modo de funcionamento do DNS 97
-2.5.3 Registros e mensagens DNS 102
-2.6 Aplicações P2P 106
-2.6.1 Distribuição de arquivos P2P 106
-2.6.2 Distributed Hash Tables (DHTs) 111
-2.7 Programação de sockets: criando aplicações de rede 115
-2.7.1 Programação de sockets com UDP 116
-2.7.2 Programação de sockets com TCP 119
-2.8 Resumo 123
-Exercícios de fixação e perguntas 124
-Problemas 125
-Tarefas de programação de sockets 131
-Wireshark Lab: HTTP 132
-Wireshark Lab: DNS 132
-Entrevista: Marc Andreessen 133
+
 
 
