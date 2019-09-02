@@ -167,7 +167,21 @@ serviço não orientado para conexão; portanto, não há apresentação antes q
 
 
 
+**9) A que camada pertence o protocolo HTTP? Como é implementado? E o que define?**
 
+O HTTP — Protocolo de Transferência de Hipertexto (HyperText Transfer Protocol) —, o protocolo da **camada de aplicação** da Web, está no coração da Web e é definido no [RFC 1945] e no [RFC 2616]. O HTTP é executado em dois programas: um cliente e outro servidor. Os dois, executados em sistemas finais diferentes, conversam entre si por meio da troca de mensagens HTTP. O HTTP define a estrutura dessas mensagens e o modo como o cliente e o servidor as trocam. 
+
+**10) Como é constituída uma página Web?**
+
+R: Uma página Web (também denominada documento) é constituída de objetos
+
+**11).O que é o tempo de viagem de ida e volta (RTT)?**
+
+R: o tempo que leva para um pequeno pacote viajar do cliente ao servidor e de volta ao cliente.
+
+**12).Que tipo de conexões o HTTP em modo default usa?**
+
+R: O modo default do HTTP usa conexões persistentes com paralelismo.
 
 
 
