@@ -183,6 +183,17 @@ R: o tempo que leva para um pequeno pacote viajar do cliente ao servidor e de vo
 
 R: O modo default do HTTP usa conexões persistentes com paralelismo.
 
+13)**Por que a utilização de um cache Web na Lan é mais vantagem do que simplesmente aumentar a velocidade de acesso?**
+
+R: Essa segunda solução resulta em tempo de resposta até menor do que o da primeira e não requer que a instituição atualize seu enlace com a Internet. Evidentemente, a instituição terá de comprar e instalar um cache Web. Mas esse custo é baixo — muitos caches usam softwares de domínio público que rodam em PCs baratos.
+
+
+
+**14) Quais as diferenças importantes entre o HTTP e o FTP?**
+
+R:A mais notável é que o FTP usa duas conexões TCP paralelas para transferir um arquivo: uma
+conexão de controle e uma conexão de dados.
+
 
 
 
