@@ -156,7 +156,6 @@ serviço não orientado para conexão; portanto, não há apresentação antes q
 
 **8) Cite algumas aplicações de rede e descreva qual o protocolo da camada de aplicação ela utiliza?**
 
-R:
 | Aplicação                 | Protocolo da camada de aplicação | Protocolo de transporte usado |
 | ------------------------- | -------------------------------- | ----------------------------- |
 | Correio eletrônico        | SMTP                             | TCP                           |
