@@ -131,11 +131,11 @@ ser interpretado o conteúdo de cabeçalhos de mensagem. O principal protocolo d
 
 **2) De que modo mensagem instantânea é um híbrido das arquiteturas cliente-servidor e P2P?**
 
-R:Mencionamos que algumas aplicações possuem arquiteturas híbridas, combinando elementos cliente-servidor e P2P. Para muitas aplicações de mensagem instantânea, os servidores costumam rastrear o endereço IP dos usuários, mas as mensagens entre usuários são enviadas diretamente entre os hospedeiros do usuário (sem passar por servidores intermediários).
+R: Mencionamos que algumas aplicações possuem arquiteturas híbridas, combinando elementos cliente-servidor e P2P. Para muitas aplicações de mensagem instantânea, os servidores costumam rastrear o endereço IP dos usuários, mas as mensagens entre usuários são enviadas diretamente entre os hospedeiros do usuário (sem passar por servidores intermediários).
 
 **3) O que é um socket?**
 
-R:Um socket é a interface entre a camada de aplicação e a de transporte dentro de um hospedeiro.
+R: Um socket é a interface entre a camada de aplicação e a de transporte dentro de um hospedeiro.
 
 **4) Para uma sessão de comunicação entre um par de processos, qual processo é o cliente e qual é o servidor?**
 
@@ -151,7 +151,7 @@ R:O modelo de serviço TCP inclui um serviço orientado para conexão e um servi
 
 **7) Explique o modelo de serviço do UDP.**
 
-R:O UDP é um protocolo de transporte simplificado, leve, com um modelo de serviço minimalista. É um
+R: O UDP é um protocolo de transporte simplificado, leve, com um modelo de serviço minimalista. É um
 serviço não orientado para conexão; portanto, não há apresentação antes que os dois processos comecem a se comunicar. O UDP provê um serviço não confiável de transferência de dados — isto é, quando um processo envia uma mensagem para dentro de um socket UDP, o protocolo não oferece garantias de que a mensagem chegará ao processo receptor. Além do mais, mensagens que chegam de fato ao processo receptor podem chegar fora de ordem.
 
 **8) Cite algumas aplicações de rede e descreva qual o protocolo da camada de aplicação ela utiliza?**
