@@ -101,3 +101,6 @@ R: Transferência confiável de dados, controle de congestionamento, controle de
 
 R: Garantias de atraso e garantias de largura de banda.
 
+
+TCP E UDP
+
