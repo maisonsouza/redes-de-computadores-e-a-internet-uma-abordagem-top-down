@@ -1,6 +1,7 @@
 # Camada de Transporte
 
 A camada de transporte desempenha o papel fundamental de **fornecer serviços de comunicação diretamente aos processos de aplicação** que rodam em hospedeiros diferentes.
+O **pacote** da camada de transporte é denominado **segmento**.
 
 
 
@@ -16,43 +17,37 @@ Principais protocolos de transporte da Internet são **UDP e TCP**.
 
 **O UDP  e o TCP** também fornecem verificação de integridade ao incluir campos de **detecção de erros** nos cabeçalhos de seus segmentos.
 
-
+O desenvolvedor da aplicação escolhe entre o UDP e o TCP ao criar sockets.
 
 ## TCP
 
 **TCP** é o protocolo de transporte **orientado para conexão.**
 
-TCP oferece **serviços de controle de fluxo e controle de congestionamento**.
+O TCP oferece **transferência confiável de dados.**
 
-**Serviço confiável de transferência de dados** a uma aplicação mesmo quando o protocolo subjacente da rede não é confiável..
+TCP oferece **Serviço confiável de transferência de dados, serviços de controle de fluxo e controle de congestionamento**.
 
-A Internet é de uma maneira mais geral a **rede TCP/IP** 
+**Serviço confiável de transferência de dados** a uma aplicação mesmo quando o protocolo subjacente da rede não é confiável.
 
- TCP que oferece á aplicação solicitante um serviço confiável, orientado para conexão
-
-O desenvolvedor da aplicação escolhe entre o UDP e o TCP ao criar sockets.
-
-O **pacote** da camada de transporte é denominado **segmento**.
-
-## UDP
-
-**UDP (User Datagram Protocol)** Protocolo de **Datagrama** de Usuário.
-
-UDP: transporte **não orientado** a conexão.
-
-Como o IP, O **UDP é um serviço não confiável**.
-
-O TCP oference **transferência confiável de dados.**
-
-entrega não confiável, não ordenada.
+A Internet é de uma maneira mais geral a **rede ou arquitetura TCP/IP** 
 
 Assim o TCP converte o serviço não confiável do IP entre sistemas finais em um **serviço confiável** da camada de transporte de dados entre processos. Ele também oferece **controle de congestionamento**, 
 
 O controle de congestionamento do TCP **evita** que qualquer outra conexão  TCP **abarrote os enlaces e roteadores** entre hospedeiros comunicantes com uma quantidade excessiva de tráfego.
 
-O tráfego UDP **não é regulado**
-
 Um protocolo que fornece transferência confiável de dados e controle de congestionamento é necessariamente complexo.
+
+
+
+## UDP
+
+**UDP (User Datagram Protocol)** Protocolo de **Datagrama** de Usuário.
+
+UDP: transporte **não orientado** a conexão, entrega não confiável, não ordenada.
+
+Como o IP, O **UDP é um serviço não confiável**.
+
+O tráfego UDP **não é regulado**
 
 
 
@@ -60,19 +55,19 @@ Um protocolo que fornece transferência confiável de dados e controle de conges
 
 Um protocolo da camada de transporte oferece **comunicação lógica entre processos** que rodam em hospedeiros diferentes, um protocolo de camada de rede fornece **comunicação lógica entre hospedeiros**.
 
-No **lado remetente** a camada de transporte converte as mensagens que recebe de um processo de aplicação remetente em pacotes de camada de transporte denominados **segmentos** de camada de transporte.
-
-Essa camada então passa o segmento para a de rede no sistema final remetente onde ele é encapsulado em uma pacote de camada de rede (um **datagrama**) e enviado ao destinatário.
-
-**A ampliação da entrega hospedeiro a hospedeiro para entrega de processo a processo é denominada multiplexação / demultiplexação de camada de transporte.**
+No **lado remetente** a camada de transporte converte as mensagens que recebe de um processo de aplicação remetente em pacotes de camada de transporte denominados **segmentos** de camada de transporte. Essa camada então passa o segmento para a de rede no sistema final remetente onde ele é encapsulado em uma pacote de camada de rede (um **datagrama**) e enviado ao destinatário.
 
 Multiplexação e demultiplexação
+
+**A ampliação da entrega hospedeiro a hospedeiro para entrega de processo a processo é denominada multiplexação / demultiplexação de camada de transporte.**
 
 O protocolo da camada de rede tem um nome **IP** que quer dizer Internet Protocol. O **modelo de serviço** do IP é um serviço de entrega de **melhor esforço**.
 
 O IP é um serviço não confiável.
 
 Cada hospedeiro tem um **endereço IP**
+
+
 
 ## Serviços não disponíveis na camada de transporte
 
